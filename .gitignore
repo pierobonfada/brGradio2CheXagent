@@ -1,0 +1,28 @@
+# Ambientes Virtuais
+.venv/
+venv/
+ENV/
+env/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Modelos locais e checkpoints pesados
+CheXagent/
+*.pt
+*.bin
+*.safetensors
+.cache/
+
+# Sistema operacional e IDEs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Gradio e arquivos temporários
+flagged/
+/tmp/
